@@ -20,7 +20,7 @@
 		Zkusíme formulář odesílat na adresu:
 		http://formular.itgirls.cz
 	-->
-
+	<form action="http://formular.itgirls.cz" method="post">
 
 
 		<!--
@@ -37,7 +37,8 @@
 			readonly  ... jen pro čtení, nejde do něj psát, ale hodnota se odešle na server
 			required  ... povinné pole, kontroluje prohlížeč při pokusu o odeslání
 		-->
-
+		<label for="jmeno">Jméno</label>
+		<input type="text" name="jmeno" id="jmeno" placeholder="Křestní jméno" required>
 
 
 		<!--
@@ -183,7 +184,7 @@
 				<legend>...</legend>
 			</fieldset>
 		-->
-
+	</form>
 
 
 

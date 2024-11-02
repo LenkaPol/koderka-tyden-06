@@ -7,3 +7,22 @@ body {
 }
 
 /* ---------------------------- */
+.pes {
+	fill: pink;
+	width: 200px;
+}
+.pes:hover {
+	fill: red;
+}
+button {
+	color: blue;
+}
+button:hover {
+	color: pink;
+}
+button:active {
+	color: green;
+}
+.listecek {
+	width: 200px;
+}
